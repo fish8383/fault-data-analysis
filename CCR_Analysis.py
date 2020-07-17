@@ -15,10 +15,10 @@ import lxml
 import tinycss
 import cssselect
 while True:
-    """ 中控室故障导出后生成图表 2020年7月9日     """
+    """ 中控室故障导出后生成图表 2020年7月9日  v1.0   """
     # import cairosvg
     ###############******数据清理*******#######################
-    fileName =input('请输入要打开表格名称')
+    fileName =input('请输入要打开表格名称!')
     if fileName is 'N':
         print('结束~')
         break
